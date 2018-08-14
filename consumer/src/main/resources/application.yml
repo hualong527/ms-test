@@ -1,0 +1,17 @@
+# HTTP (Tomcat) port
+server:
+  port: 8082
+
+#Application name
+spring:
+  application:
+    name: user-consumer
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+feign:
+  hystrix:
+    enabled: true
