@@ -6,7 +6,7 @@
 	<groupId>com.hual-sc</groupId>
 	<artifactId>ms-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>ms-test</name>
 	<description>Spring cloud micro service test</description>
@@ -19,6 +19,7 @@
 		<module>provider-service</module>
 		<module>register-center</module>
 		<module>zuul-server</module>
+		<module>order</module>
     </modules>
 
 	<parent>
